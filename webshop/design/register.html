@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/Fire.svg">
+</head>
+<body id="body">
+
+    <div class="nav-container">
+        <nav>
+            <ul class="mobile-nav">
+                <li>
+                    <div class="menu-icon-container">
+                        <div class="menu-icon">
+                            <span class="line-1"></span>
+                            <span class="line-2"></span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="#" class="link-logo"></a>
+                </li>
+
+                <li>
+                    <a href="" class="link-bag"></a>
+                </li>
+            </ul>
+
+            <ul class="desktop-nav">
+                <li>
+                    <a href="startpagina.html" class="link-logo"></a>
+                </li>
+                <li>
+                    <a href="login.html">Account</a>
+                </li>
+                <li>
+                    <a href="#">Categorie</a>
+                </li>
+                <li>
+                    <a href="#" class="link-search"></a>
+                </li>
+                <li>
+                    <a href="cart.html" class="link-cart"></a>
+                </li>
+                <li>
+                    <label class="switch">
+                        <input type="checkbox" id="myCheckbox">
+                        <span class="slider"></span>
+                    </label>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- End of navigation menu items -->
+
+        <div class="search-container hide">
+            <div class="link-search"></div>
+            <div class="search-bar" ><p></p>
+                <form action="">
+                    <input type="text" placeholder="Opzoeken">
+                </form>
+            </div>
+            <div class="link-close"></div>
+
+            <div class="quick-links">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li>
+                        <a href="startpagina.html">Main pagina</a>
+                    </li>
+                    <li>
+                        <a href="login.html">Login</a>
+                    </li>
+                    <li>
+                        <a href="register.html">Register</a>
+                    </li>
+                    <li>
+                        <a href="order.html">Orders</a>
+                    </li>
+                    <li>
+                        <a href="product.html">Laatste product</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                    <li>
+                        <a href="#">Support</a>
+                    </li>
+                    <li>
+                        <a href="#">Feedback</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="mobile-search-container">
+            <div class="link-search"></div>
+            <div class="search-bar">
+                <form action="">
+                    <input type="text" placeholder="Opzoeken">
+                </form>
+            </div>
+            <span class="cancel-btn">Cancel</span>
+
+            <div class="quick-links">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li>
+                        <a href="startpagina.html">Main pagina</a>
+                    </li>
+                    <li>
+                        <a href="login.html">Login</a>
+                    </li>
+                    <li>
+                        <a href="register.html">Register</a>
+                    </li>
+                    <li>
+                        <a href="order.html">Orders</a>
+                    </li>
+                    <li>
+                        <a href="product.html">Laatste product</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                    <li>
+                        <a href="#">Support</a>
+                    </li>
+                    <li>
+                        <a href="#">Feedback</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+<!-- Register -->
+<div class="container-register">
+    <div class="wrapper register-div">
+        <form action="">
+            <!-- Inputs Start -->
+            <h1>Register</h1>
+            <div class="personal-container">
+                <!-- personal -->
+                <div class="input-box">
+                    <input name="voornaam" type="text" placeholder="Voornaam" required>
+                    <i><img src="img/icon/account2.png" alt=""></i>
+                </div>
+                <div class="input-box">
+                    <input name="tussenvoegsel" type="text" placeholder="Tussenvoegsel ">
+                </div>
+                <div class="input-box">
+                    <input name="achternaam" type="text" placeholder="Achternaam" required>
+                </div>
+            </div>
+            <div class="input-box">
+                <input name="email"  type="email" placeholder="Email" required>
+                <i><img src="img/icon/email.png" alt=""></i>
+            </div>
+            <div class="input-box">
+                <input name="telefoonnummer"  type="number" placeholder="Telefoonnummer" required>
+                <i><img src="img/icon/phone.png" alt=""></i>
+            </div>
+            <div class="input-box">
+                <input name="geslacht" type="" placeholder="Geslacht" required>
+                <i><img src="img/icon/geslacht.png" alt=""></i>
+            </div>
+            <div class="input-box">
+                <input name="plaats" type="" placeholder="Plaats" required>
+                <i><img src="img/icon/huis.png" alt=""></i>
+            </div>
+            <div class="adrees-container">
+                <!-- adress -->
+                <div class="input-box">
+                    <input name="postcode" type="" placeholder="Postcode" required>
+                    <i><img src="img/icon/location2.png" alt=""></i>
+                </div>
+                <div class="input-box">
+                    <input name="huisnummer" type="" placeholder="Huisnummer" required>
+                    <i><img src="img/icon/huisnummer.png" alt=""></i>
+                </div>
+            </div>
+            <div class="input-box">
+                <input  name="straat" type="" placeholder="Straat" required>
+                <i><img src="img/icon/straat.png" alt=""></i>
+            </div> 
+            <div class="input-box">
+                <input name="wachtwoord" type="" placeholder="Wachtwoord" required>
+                <i><img src="img/icon/wachtwoord.png" alt=""></i>
+            </div>
+            <div class="input-box">
+                <input name="wachtwoordchek" type="" placeholder="Wachtwoord-controle" required>
+                <i><img src="img/icon/wachtwoord.png" alt=""></i>
+            </div>
+            <!-- Inputs End -->
+
+            <div class="remember-forgot">
+                <label>
+                    <input type="checkbox"> Remember Me
+                </label>
+                <a href="#"></a>
+            </div>
+            <div class="submit-login"><button type="submit" class="btn">Login</button></div>
+            <div class="register-link">
+                <p>Heb je al account ? </p> <br>
+                <p><a href="">Login</a></p>
+            </div>
+        </form>
+    </div>
+
+
+    <div class="footer">&copy; Made by Mehdi Samardan</div>
+    <div class="overlay"></div>
+    <script src="/design/js/main.js"></script>
+</body>
+</html>

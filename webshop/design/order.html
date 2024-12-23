@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Pagina</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/Fire.svg">
+</head>
+<body id="body">
+
+    <div class="nav-container">
+        <nav>
+            <ul class="mobile-nav">
+                <li>
+                    <div class="menu-icon-container">
+                        <div class="menu-icon">
+                            <span class="line-1"></span>
+                            <span class="line-2"></span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="#" class="link-logo"></a>
+                </li>
+
+                <li>
+                    <a href="" class="link-bag"></a>
+                </li>
+            </ul>
+
+            <ul class="desktop-nav">
+                <li>
+                    <a href="startpagina.html" class="link-logo"></a>
+                </li>
+                <li>
+                    <a href="login.html">Account</a>
+                </li>
+                <li>
+                    <a href="#">Categorie</a>
+                </li>
+                <li>
+                    <a href="#" class="link-search"></a>
+                </li>
+                <li>
+                    <a href="cart.html" class="link-cart"></a>
+                </li>
+                <li>
+                    <label class="switch">
+                        <input type="checkbox" id="myCheckbox">
+                        <span class="slider"></span>
+                    </label>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- End of navigation menu items -->
+
+        <div class="search-container hide">
+            <div class="link-search"></div>
+            <div class="search-bar" ><p></p>
+                <form action="">
+                    <input type="text" placeholder="Opzoeken">
+                </form>
+            </div>
+            <div class="link-close"></div>
+
+            <div class="quick-links">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li>
+                        <a href="startpagina.html">Main pagina</a>
+                    </li>
+                    <li>
+                        <a href="login.html">Login</a>
+                    </li>
+                    <li>
+                        <a href="register.html">Register</a>
+                    </li>
+                    <li>
+                        <a href="order.html">Orders</a>
+                    </li>
+                    <li>
+                        <a href="product.html">Laatste product</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                    <li>
+                        <a href="#">Support</a>
+                    </li>
+                    <li>
+                        <a href="#">Feedback</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="mobile-search-container">
+            <div class="link-search"></div>
+            <div class="search-bar">
+                <form action="">
+                    <input type="text" placeholder="Opzoeken">
+                </form>
+            </div>
+            <span class="cancel-btn">Cancel</span>
+
+            <div class="quick-links">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li>
+                        <a href="startpagina.html">Main pagina</a>
+                    </li>
+                    <li>
+                        <a href="login.html">Login</a>
+                    </li>
+                    <li>
+                        <a href="register.html">Register</a>
+                    </li>
+                    <li>
+                        <a href="order.html">Orders</a>
+                    </li>
+                    <li>
+                        <a href="product.html">Laatste product</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                    <li>
+                        <a href="#">Support</a>
+                    </li>
+                    <li>
+                        <a href="#">Feedback</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Order Pagina -->
+    <!-- 1 -->
+    <div class="orderpagina-container">
+        <div class="order-pagina-factuur">
+            <div class="uctebiri-div1"><h1>Factuur</h1></div>
+            <div class="uctebiri-div2 adress-colum">
+                <div class="tam-oturma">
+                    <p class="">Artikelen (2)</p>
+                    <p class="euro-right">&euro; 19.95</p>
+                </div>
+                <div class="tam-oturma">
+                    <p class="">Verzendkosten</p>
+                    <p class="euro-right">&euro; 4.95</p>
+                </div>
+            </div>
+            <div class="uctebiri-div3">
+                <div class="tam-oturma total-border" >
+                    <p class="">Te betalen</p>
+                    <p class="euro-right">&euro; 24.90</p>
+                </div>
+            </div>
+        </div>
+        <!-- 2 -->
+        <div class="order-pagina-verzendadres">
+            <div class="uctebiri-div1"><h1>Verzendadres</h1></div>
+            <div class="uctebiri-div2 adress-colum">             
+                <p>Mehdi Samardan</p>
+                <p>Boumaboulevard 573</p>
+                <p>9700 ZZ GRONINGEN</p>
+            </div>
+            <div class="uctebiri-div3"><button class="order-button">Wijzegen</button></div>
+        </div>
+        <!-- 3 -->
+        <div class="order-pagina-betalen">
+            <div class="uctebiri-div1"><h1>Betalen</h1></div>
+            <div class="uctebiri-div2">
+                <div class="ideal"><img src="img/IDEAL.png" alt=""></div>
+                <div class="choose-bank">
+                    <select name="" id="" >
+                        <option value="">Kies uw bank</option>
+                        <option value="">Rabobank</option>
+                        <option value="">ING bank</option>
+                        <option value="">ASN bank </option>
+                        <option value="">Regio bank</option>
+                        <option value="">Meji Bank</option>
+                    </select>
+                </div>
+            </div>
+            <div class="uctebiri-div3">
+                <a href="order_confirm.html"><button  class="order-button">Betalen</button></a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="footer">&copy; Made by Mehdi Samardan</div>
+    <div class="overlay"></div>
+    <script src="/design/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login-Page</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="img/Fire.svg" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body id="body">
+    <div class="nav-container">
+      <nav>
+        <ul class="mobile-nav">
+          <li>
+            <div class="menu-icon-container">
+              <div class="menu-icon">
+                <span class="line-1"></span>
+                <span class="line-2"></span>
+              </div>
+            </div>
+          </li>
+          <li>
+            <a href="#" class="link-logo"></a>
+          </li>
+
+          <li>
+            <a href="" class="link-bag"></a>
+          </li>
+        </ul>
+
+        <ul class="desktop-nav">
+          <li>
+            <a href="startpagina.html" class="link-logo"></a>
+          </li>
+          <li>
+            <a href="login.html">Account</a>
+          </li>
+          <li>
+            <a href="#">Categorie</a>
+          </li>
+          <li>
+            <a href="#" class="link-search"></a>
+          </li>
+          <li>
+            <a href="cart.html" class="link-cart"></a>
+          </li>
+          <li>
+            <label class="switch">
+              <input type="checkbox" id="myCheckbox" />
+              <span class="slider"></span>
+            </label>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- End of navigation menu items -->
+
+      <div class="search-container hide">
+        <div class="link-search"></div>
+        <div class="search-bar">
+          <p></p>
+          <form action="">
+            <input type="text" placeholder="Opzoeken" />
+          </form>
+        </div>
+        <div class="link-close"></div>
+
+        <div class="quick-links">
+          <h2>Quick Links</h2>
+          <ul>
+            <li>
+              <a href="startpagina.html">Main pagina</a>
+            </li>
+            <li>
+              <a href="login.html">Login</a>
+            </li>
+            <li>
+              <a href="register.html">Register</a>
+            </li>
+            <li>
+              <a href="order.html">Orders</a>
+            </li>
+            <li>
+              <a href="product.html">Laatste product</a>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+            <li>
+              <a href="#">Support</a>
+            </li>
+            <li>
+              <a href="#">Feedback</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="mobile-search-container">
+        <div class="link-search"></div>
+        <div class="search-bar">
+          <form action="">
+            <input type="text" placeholder="Opzoeken" />
+          </form>
+        </div>
+        <span class="cancel-btn">Cancel</span>
+
+        <div class="quick-links">
+          <h2>Quick Links</h2>
+          <ul>
+            <li>
+              <a href="startpagina.html">Main pagina</a>
+            </li>
+            <li>
+              <a href="login.html">Login</a>
+            </li>
+            <li>
+              <a href="register.html">Register</a>
+            </li>
+            <li>
+              <a href="order.html">Orders</a>
+            </li>
+            <li>
+              <a href="product.html">Laatste product</a>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+            <li>
+              <a href="#">Support</a>
+            </li>
+            <li>
+              <a href="#">Feedback</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- Login -->
+    <div class="container-login">
+      <div class="wrapper">
+        <form action="">
+          <h1>Login</h1>
+          <div class="input-box">
+            <input type="text" placeholder="Username" required />
+            <i><img src="img/icon/account2.png" alt="" /></i>
+          </div>
+          <div class="input-box">
+            <input type="password" placeholder="Password" required />
+            <i><img src="img/icon/wachtwoord.png" alt="" /></i>
+          </div>
+          <div class="remember-forgot">
+            <label> <input type="checkbox" /> Remember Me </label>
+            <a href="#">Forgot Password</a>
+          </div>
+          <div class="submit-login">
+            <button type="submit" class="btn">Login</button>
+          </div>
+          <div class="register-link">
+            <p>Heb je geen account ?</p>
+            <br />
+            <p><a href="">Register</a></p>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- Producten Kaart end -->
+
+    <div class="footer">&copy; Made by Mehdi Samardan</div>
+    <div class="overlay"></div>
+    <script src="/design/js/main.js"></script>
+  </body>
+</html>
